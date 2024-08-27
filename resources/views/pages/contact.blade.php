@@ -22,7 +22,7 @@
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="text-center mb-5">
-            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact</h5>
+            <h5 class="text-info text-uppercase mb-3" style="letter-spacing: 5px;">Contact</h5>
             <h1>Contact For Any Query</h1>
         </div>
         <div class="row justify-content-center">
@@ -47,7 +47,7 @@
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="text-center">
-                            <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                            <button class="btn btn-info py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
                         </div>
                     </form>
                 </div>
