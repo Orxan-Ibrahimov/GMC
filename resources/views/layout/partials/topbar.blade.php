@@ -9,8 +9,8 @@
                 <div class="d-inline-flex align-items-center">
                     <i class="fa fa-2x fa-map-marker-alt text-info mr-3"></i>
                     <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
-                        <small>123 Street, New York, USA</small>
+                        <h6 class="font-weight-semi-bold mb-1">Əsas Ofisimiz</h6>
+                        <small>Bakı şəhəri, Kövkəb Səfərəliyev 16E</small>
                     </div>
                 </div>
             </div>
@@ -18,8 +18,8 @@
                 <div class="d-inline-flex align-items-center">
                     <i class="fa fa-2x fa-envelope text-info mr-3"></i>
                     <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>info@example.com</small>
+                        <h6 class="font-weight-semi-bold mb-1">Email Ünvanı</h6>
+                        <small>info@fortunegm.az</small>
                     </div>
                 </div>
             </div>
@@ -27,8 +27,8 @@
                 <div class="d-inline-flex align-items-center">
                     <i class="fa fa-2x fa-phone text-info mr-3"></i>
                     <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>+012 345 6789</small>
+                        <h6 class="font-weight-semi-bold mb-1">Mobil</h6>
+                        <small>+994 77 363 67 77</small>
                     </div>
                 </div>
             </div>
