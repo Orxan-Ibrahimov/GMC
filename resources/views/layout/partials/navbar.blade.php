@@ -32,18 +32,18 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
-                            <a href="/" class="nav-item nav-link active">Home</a>
-                            <a href="/about" class="nav-item nav-link">About</a>
-                            <a href="/course" class="nav-item nav-link">Courses</a>
-                            <a href="/teacher" class="nav-item nav-link">Teachers</a>
+                            <a href="/" class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
+                            <a href="{{ url('/about') }}" class="nav-item nav-link {{ request()->is('about') ? 'active' : '' }}">About</a>
+                            <a href="/course" class="nav-item nav-link {{ request()->is('course') ? 'active' : '' }}">Courses</a>
+                            <a href="/teacher" class="nav-item nav-link {{ request()->is('teacher') ? 'active' : '' }}">Teachers</a>
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                <a href="#" class="nav-link dropdown-toggle {{ request()->is('blog', 'blog-detail') ? 'active' : '' }}" data-toggle="dropdown">Blog</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="/blog" class="dropdown-item">Blog List</a>
-                                    <a href="/blog-detail" class="dropdown-item">Blog Detail</a>
+                                    <a href="/blog" class="dropdown-item {{ request()->is('blog') ? 'active' : '' }}">Blog List</a>
+                                    <a href="/blog-detail" class="dropdown-item {{ request()->is('blog-detail') ? 'active' : '' }}">Blog Detail</a>
                                 </div>
                             </div>
-                            <a href="/contact" class="nav-item nav-link">Contact</a>
+                            <a href="/contact" class="nav-item nav-link {{ request()->is('contact') ? 'active' : '' }}">Contact</a>
                         </div>
                         <a class="btn btn-info py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
                     </div>
