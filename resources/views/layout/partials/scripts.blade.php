@@ -10,3 +10,18 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('js/main.js') }}"></script>
+    <script>
+        // Get all links
+        const links = document.querySelectorAll('.navbar-nav > .nav-item');
+
+        // Add click event listener to each link
+        links.forEach(link => {
+            link.addEventListener('click', function() {
+                // Remove 'active' class from all links
+                links.forEach(l => l.classList.remove('active'));
+
+                // Add 'active' class to the clicked link
+                this.classList.add('active');
+            });
+        });
+    </script>

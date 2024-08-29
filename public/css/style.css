@@ -9199,6 +9199,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /********** Custom CSS ************/
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 .font-weight-bold {
@@ -9238,6 +9242,13 @@ h6,
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+}
+
+.sticky-position {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .back-to-top {
